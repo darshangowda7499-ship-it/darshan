@@ -1,0 +1,22 @@
+* C:\Users\AIML\Desktop\darshan1234.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Wed Oct 08 14:20:07 2025
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "darshan1234.net"
+.INC "darshan1234.als"
+
+
+.probe
+
+
+.END
